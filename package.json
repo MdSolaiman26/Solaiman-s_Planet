@@ -1,0 +1,26 @@
+{
+  "name": "solaiman's_planet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon API/index.js",
+    "start": "node API/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MdSolaiman26/Solaiman-s_Planet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MdSolaiman26/Solaiman-s_Planet/issues"
+  },
+  "homepage": "https://github.com/MdSolaiman26/Solaiman-s_Planet#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}

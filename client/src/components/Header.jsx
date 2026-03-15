@@ -75,13 +75,13 @@ export default function Header() {
             <FaMoon className="text-3xl cursor-pointer text-gray-600 hover:text-yellow-400 transition-colors duration-200 bg-gray-200 p-2 rounded-md hover:bg-gray-300" />
 
             <Link to="/signin">
-              <Button className="ml-2 sm:ml-3 text-[12px] px-[2px] py-[0.5px] sm:text-xs sm:px-2 sm:py-1 w-auto" color="light" bg="blue-500" hoverBg="blue-600">
+              <Button className="ml-2 sm:ml-3 text-[12px] px-[2px] py-[0.5px] sm:text-xs sm:px-2 sm:py-1 w-auto bg-white" color="light" bg="blue-500" hoverBg="blue-600" outline={true}>
                 Sign In
               </Button>
             </Link>
             
             <Link to="/signup"> 
-                <Button className="ml-2 text-[12px] px-[2px] py-[0.5px] sm:text-xs sm:px-2 sm:py-1 w-auto" color="light" bg="blue-500" hoverBg="blue-600">
+                <Button className="ml-2 text-[12px] px-[2px] py-[0.5px] sm:text-xs sm:px-2 sm:py-1 w-auto  bg-white" color="light" bg="blue-500" hoverBg="blue-600" outline={true}>
                     Sign Up
                 </Button>
             </Link>
