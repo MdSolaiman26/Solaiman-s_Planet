@@ -3,6 +3,7 @@ const app = express();
 app.use(express.json());
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import userRoutes from './routes/user.route.js';
 dotenv.config();
 
 mongoose.connect(process.env.MONGO_URI)
@@ -10,6 +11,9 @@ mongoose.connect(process.env.MONGO_URI)
   .catch((err) => console.error("Failed to connect to MongoDB:", err));
 //Current IP Address (42.0.6.148/32) added!
 
+app.use('/API/user', userRoutes);
+
 app.listen(3000, () => {
     console.log('Server is running on port 3000!!');
 });
+     
